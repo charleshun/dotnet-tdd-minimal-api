@@ -1,0 +1,22 @@
+{
+    "securtity":{
+
+    },
+    "general": {
+        "checkpointing": {
+            "enabled":true
+        }
+    },
+    "tools": {
+        "allowed": [
+            "ShellTool"
+        ]
+    },
+    "ui": {
+        "theme": "Default",
+        "showLineNumbers": false
+    },
+    "context": {
+        "fileName": ["AGENTS.md","implementation_plan.md", "GEMINI.md", "QWEN.md"]
+    }
+}
