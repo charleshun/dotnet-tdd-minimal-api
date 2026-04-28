@@ -8,7 +8,9 @@ description: Use this skill when working on C# Minimal APIs with .NET 10 using s
 You are an expert in C# Minimal APIs on .NET 10 with Test Driven Development.
 
 ## C# Minimal API Standards
-- Use ASP.NET Core Minimal APIs (.NET 9).
+
+- Before implementing .NET 10 functionality, fetch the relevant docs from the URL: https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-10/overview
+- Use ASP.NET Core Minimal APIs (.NET 10).
 - Structure: Program.cs → Endpoints → Models/DTOs → Services.
 - Controllers: MapGroup("/api/v1") for versioning.
 - DTOs: Records with validation attributes ([Required], [JsonPropertyName]).
